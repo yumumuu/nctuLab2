@@ -34,19 +34,19 @@ In this lab, we are going to write a Python program which can generate a network
 > TODO:
 > * Describe the meaning of Mininet API in Python you used in detail
 >  
-`from mininet.util import dumpNodeConnections`
+`from mininet.util import dumpNodeConnections`</br>
 ----------Dumps connections to/from a set of nodes
-`from mininet.net import Mininet`
+`from mininet.net import Mininet`</br>
 ----------Network emulation with hosts spawned in network namespaces
-`from mininet.topo import Topo`
+`from mininet.topo import Topo`</br>
 ----------Data center network representation for structured multi-trees
-`from mininet.node import OVSController`
+`from mininet.node import OVSController`</br>
 ----------Open vSwitch controller
-`from mininet.link import TCLink`
+`from mininet.link import TCLink`</br>
 ----------Link with symmetric TC interfaces configured via opts
-`from mininet.log import setLogLevel`
+`from mininet.log import setLogLevel`</br>
 ----------Set Mininet's default output level
-`from mininet.cli import CLI`
+`from mininet.cli import CLI`</br>
 ----------Open vSwitch controller
 
 
@@ -69,20 +69,20 @@ In this lab, we are going to write a Python program which can generate a network
 > TODO:
 > * Describe how you finish this work step-by-step in detail
 
-1. **Environment Setup**
+1. **Environment Setup**</br>
     先加入github class
     再使用自己的port登入container 裡面已經裝好mininet了
     並從github上面clone需要的檔案下來
             
 
-2. **Example of Mininet**
+2. **Example of Mininet**</br>
     run一次example看一下執行成功的樣子
 
-3. **Topology Generator**
+3. **Topology Generator**</br>
     研究自己的topo.png 裡面畫著我需要做出的mininet
     並根據example.py寫出我的topology
 
-4. **Measurement**
+4. **Measurement**</br>
     在mininet裡面用iperf指令確認自己的topology.py有沒有符合預期的結果
 
 ---
