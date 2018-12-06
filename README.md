@@ -33,6 +33,21 @@ In this lab, we are going to write a Python program which can generate a network
 
 > TODO:
 > * Describe the meaning of Mininet API in Python you used in detail
+>  
+`from mininet.util import dumpNodeConnections`
+----------Dumps connections to/from a set of nodes
+`from mininet.net import Mininet`
+----------Network emulation with hosts spawned in network namespaces
+`from mininet.topo import Topo`
+----------Data center network representation for structured multi-trees
+`from mininet.node import OVSController`
+----------Open vSwitch controller
+`from mininet.link import TCLink`
+----------Link with symmetric TC interfaces configured via opts
+`from mininet.log import setLogLevel`
+----------Set Mininet's default output level
+`from mininet.cli import CLI`
+----------Open vSwitch controller
 
 
 
@@ -76,6 +91,7 @@ In this lab, we are going to write a Python program which can generate a network
 > TODO:
 > * Please add your references in the following
 * **MY REFERENCES**
+    * [Mininet Python API Reference Manual](http://mininet.org/api/annotated.html)
     * [阿寬的實驗室 - Mininet指令介紹](https://ting-kuan.blog/2017/11/09/%E3%80%90mininet%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%B4%B9%E3%80%91/)
     *  [菸酒生的記事本 – Mininet 筆記](https://blog.laszlo.tw/?p=81)   
     * [ReadMe.md heat Sheet](https://www.markdownguide.org/cheat-sheet)
