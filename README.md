@@ -35,19 +35,19 @@ In this lab, we are going to write a Python program which can generate a network
 > * Describe the meaning of Mininet API in Python you used in detail
 >  
 `from mininet.util import dumpNodeConnections`</br>
-----------Dumps connections to/from a set of nodes
+----------Dumps connections to/from a set of nodes</br>
 `from mininet.net import Mininet`</br>
-----------Network emulation with hosts spawned in network namespaces
+----------Network emulation with hosts spawned in network namespaces</br>
 `from mininet.topo import Topo`</br>
-----------Data center network representation for structured multi-trees
+----------Data center network representation for structured multi-trees</br>
 `from mininet.node import OVSController`</br>
-----------Open vSwitch controller
+----------Open vSwitch controller</br>
 `from mininet.link import TCLink`</br>
-----------Link with symmetric TC interfaces configured via opts
+----------Link with symmetric TC interfaces configured via opts</br>
 `from mininet.log import setLogLevel`</br>
-----------Set Mininet's default output level
+----------Set Mininet's default output level</br>
 `from mininet.cli import CLI`</br>
-----------Open vSwitch controller
+----------Open vSwitch controller</br>
 
 
 
